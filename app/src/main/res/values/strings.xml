@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">MiniProject</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Sign In</string>
+    <string name="signup_string">Dont have an account ?</string>
+    <string name="forgot_string">Forgot Password?</string>
+    <string name="do_you_something_about_any_thing_nldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv">Do You something about any thing !? ldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv</string>
+    <string name="send_email">Send Email</string>
+    <string name="call">Call</string>
+    <string name="visit_website">Visit Website</string>
+    <string name="name">Name</string>
+    <string name="index">index</string>
+    <string name="image">Image</string>
+    <string name="logout">Logout</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="peoplelist">PeopleList</string>
+    <string name="home">Home</string>
+    <string name="do_you_something_about_any_thing">Do You something about any thing !? ldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv</string>
+    <string name="text1">His name is</string>
+    <string name="text2">and he is</string>
+    <string name="mood_hint">mood of person</string>
+    <string name="name_hint">name of person</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="mood">Mood</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+    <string-array name="moods_names">
+        <item>Angry</item>
+        <item>Crying</item>
+        <item>Dizzy</item>
+        <item>Happy</item>
+        <item>Happy Successful</item>
+        <item>Joke</item>
+        <item>Love</item>
+        <item>Normal</item>
+        <item>Sad</item>
+        <item>Sad Tear</item>
+        <item>Sick</item>
+        <item>Smile Successful</item>
+        <item>Tired</item>
+
+    </string-array>
+    <string-array name="moods_desc">
+        <item>An angry looking face. Has inward-facing eyebrows, and a frowning mouth. Expresses anger, grumpiness or annoyance at a situation.Angry Face was approved as part of Unicode 6.0 in 2010 and added to Emoji 1.0 in 2015. </item>
+        <item>A sad face with a single tear running from one eye, down the cheek. Hurt and upset, but not crying hysterically.Some versions of this emoji features a tears running down each cheek.Crying Face was approved as part of Unicode 6.0 in 2010 and added to Emoji 1.0 in 2015. </item>
+        <item>A dizzy face, looking sick or confused from being spun around in circles too many times.Difficult to distinguish from the Astonished Face in Apple’s artwork. Most easily identified as being dizzy in Google and Microsoft’s artwork, with both showing spirals as eyes.None show the dizzy symbol above the head.Dizzy Face was approved as part of Unicode 6.0 in 2010 and added to Emoji 1.0 in 2015. </item>
+        <item>A face with smiling eyes and a broad open smile, showing upper teeth and tongue on some platforms. Conveys general happiness and good-natured amusement. Similar to 😀 Grinning Face but with but with taller, more excited eyes. </item>
+        <item>A happy and smiling face with big open mouth, showing teeth.Differs only slightly from the Smiling Face With Open Mouth emoji by the fact that these eyes are emoji-style smiling eyes, instead of tall oval eyes.</item>
+        <item>A face showing a stuck-out tongue, winking at the same time. Used in an attempt to be wacky, zany, or otherwise joking.</item>
+        <item>A face with hearts instead of eyes, or Heart Eyes Emoji as it is generally known. Used as an expression of love, for example:  “I love you” or “I love this”.</item>
+        <item>A face with a slight smile and neutral eyes. May be used as a form of passive-aggression or to convey the notion that "this is fine" when things are in fact not fine.</item>
+        <item>This face has sweat dripping from its brow, due to a stressful situation.Not to be confused with the Crying Face emoji, which has a tear on the cheek, instead of a bead of sweat. At small sizes the difference can be difficult to discern.</item>
+        <item>A face shown with drool dripping from one side of the mouth. May be used as a display of desire in a person, object or concept.</item>
+        <item>A green face, shown with pursed lipsed as though it may be about to vomit. Used literally for sickness, or as a display of disgust.</item>
+        <item>A yellow face with simple open eyes and a broad open smile, showing upper teeth and tongue on some platforms. Conveys general pleasure and good cheer or humor.</item>
+        <item>An exhausted-looking face with an open mouth and tightly closed eyes. On some platforms this emoji is similar in appearance to the Weary Face, and not to be confused with the Sleeping Face which is actually asleep.</item>
+
+    </string-array>
+</resources>

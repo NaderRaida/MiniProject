@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">حالات أندرويد</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">حالات أندرويد</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">الضبط</string>
+    <string name="email_hint">إيميل</string>
+    <string name="password_hint">باسوررد</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="signup_string">هل لديك حساب ؟</string>
+    <string name="forgot_string">هل نسيت كلمة السر ؟</string>
+    <string name="send_email">أرسل إيميل</string>
+    <string name="call">إتصل</string>
+    <string name="mood">الحالة</string>
+    <string name="visit_website">افتح موقع الويب</string>
+    <string name="name">الاسم</string>
+    <string name="ok">موافق</string>
+    <string name="cancel">إلغاء</string>
+    <string name="index">عدد</string>
+    <string name="image">صورة</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="contact_us">إتصل بنا</string>
+    <string name="peoplelist">قائمة الأشخاص</string>
+    <string name="home">الرئيسية</string>
+    <string name="text1">إسمه</string>
+    <string name="text2">وهو</string>
+    <string name="mood_hint">المزاج</string>
+    <string name="name_hint">الاسم</string>
+    <string name="enter_name">أدخل الإسم</string>
+    <string-array name="moods_names">
+        <item>غاضب</item>
+        <item>يبكي</item>
+        <item>دائخ</item>
+        <item>سعيد</item>
+        <item>سعيد للغاية</item>
+        <item>يمزح</item>
+        <item>يحب</item>
+        <item>عادي</item>
+        <item>حزين</item>
+        <item>حزين للغاية</item>
+        <item>مريض</item>
+        <item>مبتسم</item>
+        <item>متعب</item>
+
+    </string-array>
+    <string-array name="moods_desc">
+        <item>وجه غاضب. لديه حواجب تواجه الداخل ، وفم مقنّع. يعرب عن الغضب أو الغضب أو الانزعاج في الموقف.تمت الموافقة على وجه Angry كجزء من Unicode 6.0 في عام 2010 وإضافته إلى Emoji 1.0 في عام 2015. </item>
+        <item>وجه حزين بدمعة واحدة تنساب من عين ، أسفل الوجنة. يصاب ويضطرب ، ولكن لا يبكي بشكل هستيري.تتميز بعض الإصدارات من هذا الرمز التعبيرية بالدموع تنفد كل خد.تمت الموافقة على مواجهة الوجه كجزء من يونيكود 6.0 في عام 2010 وأضيفت إلى تعبيري 1.0 في عام 2015.</item>
+        <item>وجه مصاب بالدوار ، يبدو مريضًا أو مرتبكًا من أن يدور حوله في دوائر كثيرة جدًا. من الصعب تمييزه عن الوجه المدهش في عمل Apple الفني. الأكثر سهولة في التعرف على كونها بالدوار في جوجل والأعمال الفنية من مايكروسوفت ، مع عرض كل من اللوالب كعيون. لا تظهر رمز بالدوار فوق الرأس.تم اعتماد Dizzy Face كجزء من Unicode 6.0 في عام 2010 وإضافته إلى Emoji 1.0 في عام 2015.</item>
+        <item>وجه بعيون مبتسمة وابتسامة عريضة مفتوحة ، تظهر الأسنان العلوية واللسان على بعض المنصات. ينقل السعادة العامة والترفيه الجيد. على غرار وجه مبتسم ولكن مع عيون أطول وأكثر حماسا. </item>
+        <item>وجه سعيد ومبتسم مع فم مفتوح كبير ، تظهر أسنانه.دافعات فقط قليلا من الوجه المبتسم مع رمز تعبيري الفم المفتوح من حقيقة أن هذه العيون هي عيون مبتسمة على غرار الرموز التعبيرية ، بدلا من عيون البيضاوي طويل القامة. </item>
+        <item>وجه يظهر اللسان ملتصقاً ، يغمز في نفس الوقت. تستخدم في محاولة ليكون أحمق أو zany أو المزاح بطريقة أخرى.</item>
+        <item>وجه بقلوب بدلاً من العيون ، أو Heart Eyes Emoji كما هو معروف بشكل عام. تستخدم كتعبير عن الحب ، على سبيل المثال: "أنا أحبك" أو "أحب هذا".</item>
+        <item>وجه بابتسامة طفيفة وعيون محايدة. يمكن استخدامها كشكل من أشكال العدوان السلبي أو لنقل فكرة أن "هذا أمر جيد" عندما تكون الأمور في الواقع ليست جيدة.</item>
+        <item>هذا العرق ينفر من جبينه ، بسبب وضعه المجهد. لا ينبغي الخلط بينه وبين تعبيري الوجوه المبتسم ، الذي يحتوي على دمعة على الخد ، بدلاً من حبة العرق. في الأحجام الصغيرة يمكن أن يكون من الصعب تمييز الفرق. </item>
+        <item>الوجه الموضح بالرويلان يقطر من جانب واحد من الفم. يمكن استخدامها كشاشة للرغبة في الشخص أو الجسم أو المفهوم.</item>
+        <item>الوجه الأخضر ، كما هو مبين مع شفتين مدرستين كما لو كان على وشك القيء. تستخدم حرفيا للمرض ، أو كشعار للاشمئزاز.</item>
+        <item>وجه أصفر مع عيون مفتوحة بسيطة وابتسامة مفتوحة واسعة ، والتي تبين الأسنان واللسان العلويين على بعض المنصات. ينقل المتعة العامة والهتاف الجيد أو الفكاهة.</item>
+        <item>وجه مستنفد ذو فم مفتوح وعيون مغلقة بإحكام. على بعض المنصات ، يتشابه رمز الرموز التعبيرية هذا مع المظهر المرهق ، ولا ينبغي الخلط بينه وبين وجه النوم الذي هو في الواقع نائم.</item>
+    </string-array>
+</resources>
