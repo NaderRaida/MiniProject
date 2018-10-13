@@ -4,8 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="30dp"
     android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@color/white"
     tools:context=".LoginActivity">
 
     <ImageView
@@ -33,7 +34,7 @@
             android:drawableStart="@drawable/ic_email_gray_24dp"
             android:hint="@string/email_hint"
             android:inputType="textEmailAddress"
-            android:textColorHint="@android:color/darker_gray" />
+            android:textColorHint="@color/darker_gray" />
 
         <EditText
             android:id="@+id/password"
@@ -45,7 +46,7 @@
             android:drawableStart="@drawable/ic_vpn_key_gray_24dp"
             android:hint="@string/password_hint"
             android:inputType="textPassword"
-            android:textColorHint="@android:color/darker_gray" />
+            android:textColorHint="@color/darker_gray" />
 
         <Button
             android:id="@+id/login_btn"

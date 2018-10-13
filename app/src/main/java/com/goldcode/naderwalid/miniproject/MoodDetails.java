@@ -1,5 +1,6 @@
 package com.goldcode.naderwalid.miniproject;
 
+import android.graphics.Typeface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -10,7 +11,8 @@ import android.widget.Toast;
 
 public class MoodDetails extends AppCompatActivity {
     ImageView img;
-    TextView name, mood;
+    TextView name, mood , name_label , mood_label ;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,9 +27,10 @@ public class MoodDetails extends AppCompatActivity {
             name = findViewById(R.id.name_detail);
             mood = findViewById(R.id.mood_detail);
 
+
             img.setImageResource(person.getImage());
             name.setText(person.getName());
-            mood.setText(getResources().getStringArray(R.array.moods_names)[person.getIndex() - 1]);
+            mood.setText(getResources().getStringArray(R.array.moods_names)[person.getIndex()]);
 
         } else {
             Toast.makeText(this, "no data found ", Toast.LENGTH_SHORT).show();

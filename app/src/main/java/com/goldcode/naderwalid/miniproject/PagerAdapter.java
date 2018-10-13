@@ -18,7 +18,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
     public Fragment getItem(int i) {
         Fragment fragment = new ImageFragment();
         Bundle args = new Bundle();
-        args.putInt(ImageFragment.RES_ID, MainActivity.drawables[i]);
+        args.putInt(ImageFragment.RES_ID, DrawabelsListClass.drawables[i]);
         args.putString(ImageFragment.POS, String.valueOf(i));
         fragment.setArguments(args);
         return fragment;
@@ -26,7 +26,7 @@ public class PagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return MainActivity.drawables.length;
+        return DrawabelsListClass.drawables.length;
     }
 
     @Nullable

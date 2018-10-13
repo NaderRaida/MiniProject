@@ -10,10 +10,16 @@ public class Person implements Parcelable{
     public Person() {
 
     }
-    public Person(int image, String name, int index) {
+    public Person(int image, String name) {
         this.image = image;
         this.name = name;
-        this.index = index;
+
+    }
+    public Person(int image, String name,int index) {
+        this.image = image;
+        this.name = name;
+        this.index =index;
+
     }
 
     protected Person(Parcel in) {

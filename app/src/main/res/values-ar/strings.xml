@@ -10,13 +10,14 @@
     <string name="action_settings">الضبط</string>
     <string name="email_hint">إيميل</string>
     <string name="password_hint">باسوررد</string>
+    <string name="text_paragraph">يمكن اعتباره مشابها لتطبيق Windows \ الدفتر. في الإصدارات الأحدث ، اكتسبت أيضًا قراءة إضافية فقط لإمكانيات العرض لملفات PICT ، بالإضافة إلى تنسيقات أخرى مضمنة في Mac OS مثل Quickdraw GX و QTIF و 3DMF وحتى أفلام QuickTime. [2] يمكن حتى SimpleText تسجيل عينات قصيرة الصوت ، وباستخدام نظام الكلام PlainTalk أبل ، وقراءة النص باللغة الإنجليزية.</string>
     <string name="login">تسجيل الدخول</string>
     <string name="signup_string">هل لديك حساب ؟</string>
     <string name="forgot_string">هل نسيت كلمة السر ؟</string>
     <string name="send_email">أرسل إيميل</string>
     <string name="call">إتصل</string>
     <string name="mood">الحالة</string>
-    <string name="visit_website">افتح موقع الويب</string>
+    <string name="visit_website">موقع الويب</string>
     <string name="name">الاسم</string>
     <string name="ok">موافق</string>
     <string name="cancel">إلغاء</string>

@@ -2,9 +2,20 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/gray"
     android:orientation="vertical"
 
     >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/white"
+        android:elevation="8dp"
+        android:padding="8dp"
+        android:text="@string/text_paragraph"
+        android:textSize="18sp" />
 
     <Button
         android:id="@+id/send_email_btn"
@@ -13,27 +24,42 @@
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        android:drawableStart="@drawable/ic_email_gray_24dp"
-        android:gravity="center"
-        android:text="@string/send_email" />
+        android:background="@color/colorAccent"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_email_white"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="@string/send_email"
+        android:textColor="@color/white" />
+
     <Button
-    android:id="@+id/call_btn"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginEnd="10dp"
-    android:layout_marginStart="10dp"
-    android:layout_marginTop="10dp"
-    android:drawableStart="@drawable/ic_local_phone_black_24dp"
-    android:gravity="center"
-    android:text="@string/call" />
+        android:id="@+id/call_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_phone_white"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="@string/call"
+        android:textColor="@color/white" />
+
     <Button
         android:id="@+id/visit_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:drawableStart="@drawable/ic_insert_link_black_24dp"
-        android:gravity="center"
-        android:text="@string/visit_website" />
+        android:layout_marginTop="20dp"
+        android:background="@color/colorAccent"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_insert_white"
+        android:gravity="start|center"
+        android:padding="10dp"
+        android:text="@string/visit_website"
+
+        android:textColor="@color/white" />
 </LinearLayout>

@@ -36,7 +36,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyHold
         final Person person = moods_list.get(position);
 
         holder.mood_name.setText(person.getName());
-        holder.mood_index.setText(String.valueOf(person.getIndex()));
+        holder.mood_index.setText(String.valueOf(position+1));
         holder.mood_img.setImageResource(person.getImage());
 //        holder.event_img.setImageResource(images[position]);
         holder.cardView.setOnClickListener(new View.OnClickListener() {

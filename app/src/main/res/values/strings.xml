@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MiniProject</string>
+    <string name="app_name">Android Moods</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">Android Studio</string>
@@ -14,7 +14,7 @@
     <string name="do_you_something_about_any_thing_nldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv">Do You something about any thing !? ldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv</string>
     <string name="send_email">Send Email</string>
     <string name="call">Call</string>
-    <string name="visit_website">Visit Website</string>
+    <string name="visit_website">Website</string>
     <string name="name">Name</string>
     <string name="index">index</string>
     <string name="image">Image</string>
@@ -31,6 +31,8 @@
     <string name="mood">Mood</string>
     <string name="ok">Ok</string>
     <string name="cancel">Cancel</string>
+    <string name="text_paragraph">it can be considered similar to Windows\' WordPad application. In later versions it also gained additional read only display capabilities for PICT files, as well as other Mac OS built-in formats like Quickdraw GX and QTIF, 3DMF and even QuickTime movies.[2] SimpleText can even record short sound samples and, using Apple\'s PlainTalk speech system, read out text in English.</string>
+    <string name="description">description</string>
     <string-array name="moods_names">
         <item>Angry</item>
         <item>Crying</item>

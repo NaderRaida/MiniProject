@@ -28,6 +28,7 @@ public class HomeFragment extends Fragment {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
 //        actionBar = getActivity().getActionBar();
 //
 //
@@ -75,25 +76,26 @@ public class HomeFragment extends Fragment {
 
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.M)
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.home_fragment_layout, container, false);
-        textView =  view.findViewById(R.id.textViewP);
+        textView = view.findViewById(R.id.textViewP);
         final String text = textView.getText().toString();
-        SpannableString spannableString = new SpannableString(text);
-        spannableString.setSpan(new StyleSpan(Typeface.BOLD),0,36, Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-        textView.setText(spannableString);
+
         mViewPager = view.findViewById(R.id.viewPager);
-        mViewPager.setClipToPadding(false);
+
 //        mViewPager.setPadding(300, 0, 300, 0);
 
         // Create a new ImageAdapter (subclass of FragmentStatePagerAdapter)
         // ViewPager uses support library, so use getSupportFragmentManager()
         // instead of getFragmentManager()
-        mPagerAdapter = new PagerAdapter(getActivity().getSupportFragmentManager(),getActivity());
-
+        mPagerAdapter = new PagerAdapter(getChildFragmentManager(), getActivity());
+        if (savedInstanceState != null) {
+            mViewPager.setCurrentItem(savedInstanceState.getInt("index"));
+            Toast.makeText(getContext(), "restore"+savedInstanceState.getInt("index"), Toast.LENGTH_SHORT).show();
+        }
         // Set the Adapter on the ViewPager
         mViewPager.setAdapter(mPagerAdapter);
 
@@ -118,4 +120,10 @@ public class HomeFragment extends Fragment {
     }
 
 
+
+    @Override
+    public void onSaveInstanceState(@NonNull Bundle outState) {
+        outState.putInt("index", mViewPager.getCurrentItem());
+//        Toast.makeText(getContext(), "save"+mViewPager.getCurrentItem(), Toast.LENGTH_SHORT).show();
+    }
 }
