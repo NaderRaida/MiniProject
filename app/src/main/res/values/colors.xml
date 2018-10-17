@@ -2,11 +2,30 @@
 <resources>
     <color name="colorPrimary">#9FB543</color>
     <color name="colorPrimaryDark">#8ba32a</color>
-    <color name="colorAccent">#ABB653</color>
+    <color name="colorAccent">#9FB543</color>
     <color name="gray">#E4E4E4</color>
     <color name="blue">#0004ff</color>
     <color name="white">#ffff</color>
     <color name="darker_gray">#aaa</color>
     <color name="colorbuttons">#9FB543</color>
     <color name="text_color">#000000</color>
+    <color name="login_background_color">#ffff</color>
+    <color name="view_text_color">#aaa</color>
+    <color name="home_background_color">#e4e3e3</color>
+    <color name="title_pager">#ffff</color>
+    <color name="drawer_background">#e4e3e3</color>
+    <color name="item_text_color">#5c5b5b</color>
+    <color name="header_text">#ffff</color>
+    <color name="text_view_home_background">#ffff</color>
+    <color name="card_background">#ffff</color>
+    <color name="card_background_click">#9FB543</color>
+    <color name="index_name_card_text">#000000</color>
+    <color name="list_people_background">#e4e3e3</color>
+    <color name="mood_detail_background">#e4e3e3</color>
+    <color name="his_name_and_he_text">#000000</color>
+    <color name="insert_btn">#ffff</color>
+    <color name="black">#000000</color>
+    <color name="second_bacground">#ffff</color>
+    <color name="spinner_background">#ffff</color>
+    <color name="btn_hover">#7678e7</color>
 </resources>

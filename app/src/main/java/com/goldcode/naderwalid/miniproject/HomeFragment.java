@@ -92,10 +92,10 @@ public class HomeFragment extends Fragment {
         // ViewPager uses support library, so use getSupportFragmentManager()
         // instead of getFragmentManager()
         mPagerAdapter = new PagerAdapter(getChildFragmentManager(), getActivity());
-        if (savedInstanceState != null) {
-            mViewPager.setCurrentItem(savedInstanceState.getInt("index"));
-            Toast.makeText(getContext(), "restore"+savedInstanceState.getInt("index"), Toast.LENGTH_SHORT).show();
-        }
+//        if (savedInstanceState != null) {
+//            mViewPager.setCurrentItem(savedInstanceState.getInt("index"));
+//            Toast.makeText(getContext(), "restore"+savedInstanceState.getInt("index"), Toast.LENGTH_SHORT).show();
+//        }
         // Set the Adapter on the ViewPager
         mViewPager.setAdapter(mPagerAdapter);
 
@@ -123,7 +123,7 @@ public class HomeFragment extends Fragment {
 
     @Override
     public void onSaveInstanceState(@NonNull Bundle outState) {
-        outState.putInt("index", mViewPager.getCurrentItem());
+//        outState.putInt("index", mViewPager.getCurrentItem());
 //        Toast.makeText(getContext(), "save"+mViewPager.getCurrentItem(), Toast.LENGTH_SHORT).show();
     }
 }

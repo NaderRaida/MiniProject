@@ -15,7 +15,7 @@
         <android.support.v4.view.PagerTitleStrip
             android:id="@+id/pager_title_strip"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:background="@color/colorPrimary"
             android:paddingBottom="4dp"
             android:paddingTop="4dp"
@@ -32,13 +32,13 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:background="@color/colorPrimary"
             android:padding="3dp"
             android:text="@string/description"
             android:textAlignment="center"
             android:textColor="@android:color/white"
-            android:textSize="15sp" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textViewP"
@@ -46,6 +46,7 @@
             android:layout_height="match_parent"
             android:background="@color/text_view_home_background"
             android:padding="8dp"
+            android:textSize="40sp"
             android:text="@string/do_you_something_about_any_thing"
             android:textColor="@color/text_color" />
     </LinearLayout>

@@ -11,7 +11,6 @@
     <string name="login">Sign In</string>
     <string name="signup_string">Dont have an account ?</string>
     <string name="forgot_string">Forgot Password?</string>
-    <string name="do_you_something_about_any_thing_nldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv">Do You something about any thing !? ldkmsvldsmvlkdmslkvmdslkvmdslkvmdsklvmkdsvmkldsvklsdmvkssdvsdvsdvsdv</string>
     <string name="send_email">Send Email</string>
     <string name="call">Call</string>
     <string name="visit_website">Website</string>
@@ -33,6 +32,7 @@
     <string name="cancel">Cancel</string>
     <string name="text_paragraph">it can be considered similar to Windows\' WordPad application. In later versions it also gained additional read only display capabilities for PICT files, as well as other Mac OS built-in formats like Quickdraw GX and QTIF, 3DMF and even QuickTime movies.[2] SimpleText can even record short sound samples and, using Apple\'s PlainTalk speech system, read out text in English.</string>
     <string name="description">description</string>
+    <string name="action_night_mood">Night Mood ON/OFF</string>
     <string-array name="moods_names">
         <item>Angry</item>
         <item>Crying</item>
@@ -56,8 +56,8 @@
         <item>A face with smiling eyes and a broad open smile, showing upper teeth and tongue on some platforms. Conveys general happiness and good-natured amusement. Similar to 😀 Grinning Face but with but with taller, more excited eyes. </item>
         <item>A happy and smiling face with big open mouth, showing teeth.Differs only slightly from the Smiling Face With Open Mouth emoji by the fact that these eyes are emoji-style smiling eyes, instead of tall oval eyes.</item>
         <item>A face showing a stuck-out tongue, winking at the same time. Used in an attempt to be wacky, zany, or otherwise joking.</item>
-        <item>A face with hearts instead of eyes, or Heart Eyes Emoji as it is generally known. Used as an expression of love, for example:  “I love you” or “I love this”.</item>
-        <item>A face with a slight smile and neutral eyes. May be used as a form of passive-aggression or to convey the notion that "this is fine" when things are in fact not fine.</item>
+        <item>This face with hearts instead of eyes, or Heart Eyes Emoji as it is generally known. Used as an expression of love, for example:  “I love you” or “I love this”.</item>
+        <item>The face with a slight smile and neutral eyes. May be used as a form of passive-aggression or to convey the notion that "this is fine" when things are in fact not fine.</item>
         <item>This face has sweat dripping from its brow, due to a stressful situation.Not to be confused with the Crying Face emoji, which has a tear on the cheek, instead of a bead of sweat. At small sizes the difference can be difficult to discern.</item>
         <item>A face shown with drool dripping from one side of the mouth. May be used as a display of desire in a person, object or concept.</item>
         <item>A green face, shown with pursed lipsed as though it may be about to vomit. Used literally for sickness, or as a display of disgust.</item>

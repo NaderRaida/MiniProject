@@ -8,7 +8,7 @@
     <android.support.v4.view.ViewPager
         android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="270dp">
+        android:layout_height="520dp">
 
         <android.support.v4.view.PagerTitleStrip
             android:id="@+id/pager_title_strip"
@@ -29,6 +29,7 @@
         android:layout_margin="10dp"
         android:background="@color/text_view_home_background"
         android:padding="5dp"
+        android:textSize="40sp"
         android:textColor="@color/text_color"
         android:text="@string/do_you_something_about_any_thing" />
 </LinearLayout>

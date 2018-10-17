@@ -3,12 +3,13 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <stroke
         android:width="1dp"
-        android:color="#d7d6d6"/>
+        android:color="#505050"/>
     <corners
-        android:radius="1dp" />
+        android:radius="7dp" />
 
 
 
-    <solid android:color="@color/insert_btn"/>
+    <solid android:color="@color/btn_hover"/>
+
 
 </shape>

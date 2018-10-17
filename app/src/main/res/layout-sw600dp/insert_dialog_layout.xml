@@ -7,34 +7,32 @@
 
     <ImageView
         android:id="@+id/img_dialog"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="189dp"
         android:src="@drawable/ic_android_mood_happy" />
 
     <LinearLayout
-        android:layout_width="220dp"
-        android:layout_height="240dp"
+        android:layout_width="260dp"
+        android:layout_height="280dp"
         android:background="@drawable/dialog_background"
         android:orientation="vertical"
         android:padding="10dp">
 
         <TextView
-            android:layout_marginTop="15dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:text="Android Moods"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="25sp"
             android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:dropDownSelector="@color/black"
-            android:background="@color/insert_btn"
-            android:popupBackground="@color/spinner_background"
+            android:layout_marginTop="15dp"
+
             >
 
         </Spinner>
@@ -42,36 +40,36 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
             android:text="@string/name"
             android:textColor="@color/white"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:layout_marginBottom="5dp"
-            />
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold" />
 
         <EditText
+            android:layout_marginTop="10dp"
             android:id="@+id/edit_text_name_dialog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="13dp"
             android:hint="@string/enter_name"
             android:textColor="@color/black"
-            android:textColorHint="@color/gray"
-            android:layout_marginBottom="13dp"
-            android:textSize="15sp" />
 
-        <LinearLayout
-            android:layout_marginTop="5dp"
+            android:textColorHint="@color/gray"
+            android:textSize="20sp" />
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="horizontal"
             >
 
             <Button
                 android:id="@+id/cancel_dialog"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="10dp"
+                android:layout_alignParentEnd="true"
+
                 android:background="@drawable/custom_btn_2"
                 android:elevation="10dp"
                 android:text="@string/cancel"
@@ -85,7 +83,7 @@
                 android:background="@drawable/custom_btn_2"
                 android:elevation="10dp"
                 android:text="@string/ok" />
-        </LinearLayout>
+        </RelativeLayout>
     </LinearLayout>
 
 </LinearLayout>

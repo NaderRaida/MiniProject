@@ -18,6 +18,7 @@
     <string name="call">إتصل</string>
     <string name="mood">الحالة</string>
     <string name="visit_website">موقع الويب</string>
+    <string name="action_night_mood">الوضع الليلي/العادي</string>
     <string name="name">الاسم</string>
     <string name="ok">موافق</string>
     <string name="cancel">إلغاء</string>

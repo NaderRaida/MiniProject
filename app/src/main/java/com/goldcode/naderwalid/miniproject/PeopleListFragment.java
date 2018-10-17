@@ -2,14 +2,17 @@ package com.goldcode.naderwalid.miniproject;
 
 import android.graphics.Color;
 import android.graphics.Paint;
+import android.graphics.Point;
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -66,7 +69,10 @@ public class PeopleListFragment extends Fragment {
 
         View view = inflater.inflate(R.layout.people_list_fragment_layout, container, false);
         recyclerView = view.findViewById(R.id.recyclerView);
-        recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+            recyclerView.setLayoutManager(new LinearLayoutManager(getContext()));
+
+
 
         myRecyclerAdapter = new RecyclerAdapter(getContext(), arrayList);
         recyclerView.setAdapter(myRecyclerAdapter);

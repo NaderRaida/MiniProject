@@ -5,6 +5,7 @@ import android.app.UiModeManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -24,13 +25,17 @@ public class MainActivity extends AppCompatActivity
     FragmentTransaction fragmentTransaction;
 
     @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putString("title",getSupportActionBar().getTitle().toString());
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle(getResources().getString(R.string.home));
-
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
                 this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
@@ -39,10 +44,16 @@ public class MainActivity extends AppCompatActivity
 
         navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        if (savedInstanceState == null) {
+            getSupportActionBar().setTitle("Home");
+            fragmentTransaction = getSupportFragmentManager().beginTransaction();
+            fragmentTransaction.add(R.id.main_container, new HomeFragment());
+            fragmentTransaction.commit();
+        }else{
+            getSupportActionBar().setTitle(savedInstanceState.getString("title"));
 
-        fragmentTransaction = getSupportFragmentManager().beginTransaction();
-        fragmentTransaction.add(R.id.main_container, new HomeFragment());
-        fragmentTransaction.commit();
+        }
+
     }
 
     @Override
@@ -70,7 +81,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_night_mood) {
             UiModeManager uiManager = (UiModeManager) getSystemService(Context.UI_MODE_SERVICE);
             if (uiManager.getNightMode() == UiModeManager.MODE_NIGHT_YES) {
                 uiManager.setNightMode(UiModeManager.MODE_NIGHT_NO);
@@ -134,7 +145,8 @@ public class MainActivity extends AppCompatActivity
     @Override
     public void onOkClickListener(Person person) {
 
-        PeopleListFragment fragment = (PeopleListFragment) getSupportFragmentManager().findFragmentByTag("PeopleListFragmant");
+        PeopleListFragment fragment =
+                (PeopleListFragment) getSupportFragmentManager().findFragmentByTag("PeopleListFragmant");
         FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
         ft.remove(fragment);
         ft.add(R.id.main_container, fragment, "PeopleListFragmant");

@@ -11,8 +11,8 @@
 
     <ImageView
         android:id="@+id/img_detail"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
         android:src="@drawable/ic_android_mood_happy" />
 
     <LinearLayout
@@ -27,42 +27,35 @@
             android:text="@string/text1"
             android:textColor="@color/his_name_and_he_text"
             android:fontFamily="@font/custom_font"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/name_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
+            android:layout_marginStart="5dp"
             android:text="@string/name_hint"
             android:fontFamily="@font/custom_font"
             android:textColor="@color/blue"
-            android:textSize="25sp" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:orientation="horizontal">
+            android:textSize="35sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/text2"
             android:textColor="@color/his_name_and_he_text"
-
+            android:layout_marginStart="5dp"
             android:fontFamily="@font/custom_font"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
 
         <TextView
             android:id="@+id/mood_detail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="3dp"
+            android:layout_marginStart="5dp"
             android:text="@string/mood_hint"
             android:fontFamily="@font/custom_font"
             android:textColor="@color/blue"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
     </LinearLayout>
 </LinearLayout>

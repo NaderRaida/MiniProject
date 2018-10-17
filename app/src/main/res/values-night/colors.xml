@@ -1,14 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#292927</color>
-    <color name="colorPrimaryDark">#3a3b36</color>
-    <color name="colorAccent">#645656</color>
-    <color name="gray">#eda9a9</color>
-    <color name="blue">#c749f5</color>
-    <color name="white">#484847</color>
-    <color name="darker_gray">#e95b5b</color>
-    <color name="colorbuttons">#3e92ec</color>
+    <color name="colorPrimaryDark">#191a18</color>
+    <color name="colorAccent">#cc20b0e4</color>
+    <color name="gray">#E4E4E4</color>
+    <color name="blue">#0004ff</color>
+    <color name="white">#ffff</color>
+    <color name="darker_gray">#aaa</color>
+    <color name="colorbuttons">#cc20b0e4</color>
     <color name="text_color">#ffff</color>
-
-
+    <color name="login_background_color">#292927</color>
+    <color name="view_text_color">#ffff</color>
+    <color name="home_background_color">#383838</color>
+    <color name="title_pager">#ffff</color>
+    <color name="drawer_background">#383838</color>
+    <color name="item_text_color">#aaa</color>
+    <color name="header_text">#ffff</color>
+    <color name="text_view_home_background">#292927</color>
+    <color name="card_background">#161616</color>
+    <color name="card_background_click">#cc20b0e4</color>
+    <color name="index_name_card_text">#aaa</color>
+    <color name="list_people_background">#292927</color>
+    <color name="mood_detail_background">#292927</color>
+    <color name="his_name_and_he_text">#ffff</color>
+    <color name="insert_btn">#e04d351e</color>
+    <color name="black">#ffff</color>
+    <color name="second_bacground">#383838</color>
+    <color name="spinner_background">#383838</color>
+    <color name="btn_hover">#e04d351e</color>
 </resources>

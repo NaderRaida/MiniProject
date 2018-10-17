@@ -51,6 +51,7 @@
             android:layout_height="wrap_content"
             android:hint="@string/enter_name"
             android:textColorHint="@color/gray"
+            android:textColor="@color/black"
             android:textSize="12sp" />
 
         <LinearLayout
